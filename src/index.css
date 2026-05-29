@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;850&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", "Inter", sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+}
+
+/* Masonic WhatsApp Tribute Card Responsive Scaling Styles */
+#masonic-whatsapp-tribute-card {
+  --preview-scale: 0.77;
+}
+
+#masonic-whatsapp-tribute-card-placeholder {
+  width: 415px;
+  height: 519.75px;
+}
+
+@media (max-width: 480px) {
+  #masonic-whatsapp-tribute-card {
+    --preview-scale: 0.52 !important;
+  }
+  #masonic-whatsapp-tribute-card-placeholder {
+    width: 280px !important;
+    height: 350px !important;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 640px) {
+  #masonic-whatsapp-tribute-card {
+    --preview-scale: 0.65 !important;
+  }
+  #masonic-whatsapp-tribute-card-placeholder {
+    width: 350px !important;
+    height: 437.5px !important;
+  }
+}
+
+@media (min-width: 641px) {
+  #masonic-whatsapp-tribute-card {
+    --preview-scale: 0.77 !important;
+  }
+  #masonic-whatsapp-tribute-card-placeholder {
+    width: 415px !important;
+    height: 519.75px !important;
+  }
+}
+

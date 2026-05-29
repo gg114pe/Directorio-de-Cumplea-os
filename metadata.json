@@ -1,0 +1,6 @@
+{
+  "name": "Listado de Cumpleaños",
+  "description": "Una aplicación moderna para ver y gestionar cumpleaños por meses, con estadísticas de edad, signos zodiacales y recordatorios de celebraciones.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
