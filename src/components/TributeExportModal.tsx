@@ -429,7 +429,13 @@ export default function TributeExportModal({
                 {showAge && (
                   <div className="flex items-center justify-center gap-1.5 pt-1">
                     <span className={`text-[9px] font-bold uppercase tracking-widest font-mono ${t.textMuted}`}>Cumple</span>
-                    <span className={`text-base font-extrabold font-mono px-2.5 py-0.5 rounded-lg border ${t.border} bg-white/5`} style={{ color: theme === 'parchment-vintage' ? '#1c1917' : undefined }}>
+                    <span 
+                      className={`text-base font-extrabold font-mono px-2.5 py-0.5 rounded-lg border ${t.border} ${
+                        theme === 'parchment-vintage' 
+                          ? 'text-stone-900 bg-stone-800/5' 
+                          : `${t.accent} bg-white/5`
+                      }`}
+                    >
                       {age} AÑOS
                     </span>
                     <span className={`text-[9px] font-bold uppercase tracking-widest font-mono ${t.textMuted}`}>Zodíaco {zodiac.symbol} {zodiac.name}</span>
