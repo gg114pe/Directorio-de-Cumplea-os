@@ -184,7 +184,7 @@ export default function App() {
         <header className="mb-8 flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-slate-200 pb-6 gap-6">
           <div className="flex items-center gap-4">
             <img 
-              src="/src/assets/images/lodge_logo_1780075461158.png" 
+              src="/src/assets/images/log114.png" 
               alt="Logo Giuseppe Garibaldi 114" 
               className="w-16 h-16 sm:w-20 sm:h-20 object-contain rounded-full shadow-md bg-stone-50 border border-stone-200/50 p-0.5 filter hover:scale-105 transition-transform duration-300"
               referrerPolicy="no-referrer"
